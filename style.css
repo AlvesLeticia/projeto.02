@@ -1,0 +1,124 @@
+/*tirando a margem automática que o body*/
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+/*como fazer um fundo gradiente (background gradient)*/
+  background: linear-gradient(180deg, rgba(227,255,248,0) 82.08%, rgba(227,255,248, 0.38)100%);
+  min-height: 100vh;
+}
+
+/*colocando estilo na class page*/
+.page{
+  margin: 0 auto;
+  width: 1000px;
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 55px;
+  font-family: 'Mulish', sans-serif;
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*como tirar o sublinhado do link*/
+ ul li a {
+  text-decoration: none;
+  color: #1F1534;
+ }
+
+/*pseudo-classes, colocando efeito hover no nav*/
+ul li a:hover {
+  font-weight: bold;
+}
+
+ h1, ul {
+  font-family: 'Mulish', sans-serif;
+ }
+
+/*ao aplicar display flex no main os elementos ficam
+um do lado do outro*/
+ main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+  font-weight: normal;
+  width: 490px;
+ }
+
+ h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+ }
+
+ section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+  margin: 40px 0;
+
+ }
+
+ button {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+
+  background-color: #69b99d;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px 15px;
+  gap: 10px;
+  /*para arredondar as bordas do botão*/
+  border-radius: 10px; 
+
+  /*aparecer mãozinha no em cima do botão*/
+  cursor: pointer;
+ }
+
+/*adicionando pseudo-classe hover no botão*/
+  button:hover {
+    background-color: #459e7f;
+}
+
+ footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+ }
+
+ footer a {
+  font-weight: bold;
+  color:#1F1534;
+ }
+
+#balls {
+  position: fixed;
+ bottom: 0;
+ right: 0; 
+}
+
+a {
+  text-decoration: none;
+}
